@@ -1,3 +1,3 @@
 
-default["motd"]["company"] = "Welcone to this server. It is a CentOS server"
+default["motd"]["company"] = "Welcome to this server. It is a CentOS server"
 
