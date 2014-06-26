@@ -11,3 +11,12 @@
       source "motd.erb"
   end
 
+
+data = data_bag_item( 'certs', 'net' )
+
+template "/etc/motd3" do
+  source "motd3.erb"
+ variables( :abc => data['abc'], :def => data['def'] )
+end
+
+
