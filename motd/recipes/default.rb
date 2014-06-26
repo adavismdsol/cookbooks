@@ -7,7 +7,7 @@
 # All rights reserved - Do Not Redistribute
 #
 
-  template "/etc/motd" do
+  template "/etc/motd2" do
       source "motd.erb"
   end
 
